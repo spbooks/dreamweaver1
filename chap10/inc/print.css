@@ -1,0 +1,226 @@
+body {
+	color: #000000;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	display: none;
+}
+#content {
+	margin-top: 80px;
+	margin-right: 80px;
+	margin-left: 40px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* Hack for IE5.* which misinterprets the width */
+* #content {
+	width: 100%;
+	w\idth: auto;
+}
+/* end hack */
+
+#nav {
+	display: none;
+}
+img {
+	border: 0px;
+}
+#content .homepage-box {
+	float: left;
+	width: 49%;
+	border-top: 1px solid #8A9877;
+}
+#content h1 {
+	font-style: italic;
+	font-weight: bold;
+	color: #3C582F;
+	text-align: right;
+	margin: 0px;
+	padding: 0px 0px 0.2em;
+}
+#content h2 {
+	font-weight: bold;
+	color: #3C582F;
+	margin: 1.5em 0.5em 0px;
+	padding-bottom: 0.1em;
+}
+#content a:link {
+	color: #3C582F;
+}
+#content a:visited {
+	color: #3C582F;
+}
+#content h3 {
+	color: #000000;
+}
+#content .homepage-box .author-pic {
+	float: left;
+	margin-right: 20px;
+	margin-left: 4px;
+}
+#content .homepage-box p {
+	margin-right: 20px;
+}
+#content p.authorcredit {
+	color: #8A9877;
+	text-align: right;
+}
+.authorcredit .date {
+	vertical-align: top;
+	margin-left: 1em;
+}
+.rss {
+	float: right;
+}
+#content .homepage-box table {
+	width: 98%;
+	margin-top: 1em;
+	border-collapse: collapse;
+}
+#content .homepage-box th {
+	color: #72746D;
+	background: #EAEAE2;
+}
+#content .homepage-box td {
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+#content .homepage-box tr.even {
+	background-color: #F4F4F0;
+}
+#content .homepage-box td.bullet {
+	background: url(../img/tbl_bullet.gif) no-repeat 3px;
+	padding-left: 28px;
+}
+
+#content .homepage-box tr.even td.bullet {
+	background: url(../img/tbl_bullet_even.gif) no-repeat 3px;
+	padding-left: 28px;
+	background-color: #F4F4F0;
+}
+#content .homepage-box td.forumbullet {
+	background: url(../img/tbl_discuss_bullet.gif) no-repeat 3px;
+	padding-left: 28px;
+}
+
+#content .homepage-box tr.even td.forumbullet {
+	background: url(../img/tbl_discuss_bullet_even.gif) no-repeat 3px;
+	padding-left: 28px;
+	background-color: #F4F4F0;
+}#content .homepage-box .browser-stats-image {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#content .homepage-box .browser-stats-discussion {
+	clear: right;
+}
+.clear {
+	clear: both;
+}
+#content .homepage-box .browser-stats-list {
+	font-weight: bold;
+	
+}
+#content .homepage-box .browser-stats-list li.ie6 {
+	list-style: url(../img/ie6-bullet.gif);
+}
+
+#content .homepage-box .browser-stats-list li.moz {
+	list-style: url(../img/moz-bullet.gif);
+}
+
+#content .homepage-box .browser-stats-list li.ie5 {
+	list-style: url(../img/ie5-bullet.gif);
+}
+
+#content .homepage-box .browser-stats-list li.safari{
+	list-style: url(../img/safari-bullet.gif);
+}
+
+#content .homepage-box .browser-stats-list li.opera {
+	list-style: url(../img/opera-bullet.gif);
+}
+
+#content .homepage-box .browser-stats-list li.other {
+	list-style: url(../img/otherbrowser-bullet.gif);
+}
+p.breadcrumbs {
+	text-align: right;
+	border-bottom: 1px solid #3C582F;
+	line-height: 2em;
+	display: none;
+}
+#content h1.tutorial {
+	font-style: normal;
+	text-align: left;
+}
+.tutorial-author {
+	float: left;
+	width: 104px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.tutorial-credit {
+	margin-right: 3em;
+}
+.tutorial-intro {
+	font-weight: bold;
+}
+.tutorial-image {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.pullquote {
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #3C582F url(../img/quote-bottom.gif) no-repeat right bottom;
+	float: right;
+	width: 160px;
+	margin: 0px 0px 10px 10px;
+	padding: 0.2em 0.5em;
+}
+.pullquote p {
+	background: url(../img/quote-top.gif) no-repeat left top;
+	padding: 6px 4px 6px 8px;
+	margin: 0px;
+}
+.sitemap {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.sitemap li {
+	margin-bottom: 0.6em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #E4FDCC;
+}
+.sitemap li ul li {
+	border-bottom-style: none;
+	margin-top: 0.2em;
+	padding-bottom: 0.2em;
+	list-style: url(../img/sitemap-level2.gif);
+}
+.sitemap li ul ul li {
+	list-style: url(../img/tutorial-list-bullet.gif);
+}
+.contactform p {
+	margin: 0px;
+	padding: 5px 0px 0px;
+	clear: left;
+}
+.contactform p label {
+	float: left;
+	width: 20%;
+	font-weight: bold;
+}.contactform .text {
+	background: #F5F6F2;
+	padding: 2px;
+	width: 280px;
+	border: 1px solid #3C582F;
+}
+#content p.submit {
+	margin-left: 20%;
+}

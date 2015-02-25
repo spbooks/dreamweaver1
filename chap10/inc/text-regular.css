@@ -1,0 +1,57 @@
+body {
+	font-size: 1em;
+}
+#content {
+	font-size: 80%;
+}
+.tagline {
+	font-size: 100%;
+}
+#controls {
+	font-size: 70%;
+}
+#header-bottom li {
+	font-size: 90%;
+}
+#content h1 {
+	font-size: 120%;
+}
+#content h2 {
+	font-size: 120%;
+}
+#content h3 {
+	font-size: 100%;
+}
+.authorcredit .date {
+	font-size: 80%;
+}
+#content .homepage-box th {
+	font-size: 70%;
+}
+#content .homepage-box td {
+	font-size: 90%;
+}
+#nav h3 {
+	font-size: 120%;
+}
+#nav label {
+	font-size: 70%;
+}
+#nav ul.topics li {
+	font-size: 90%;
+}
+#nav ul.list a:link {
+	font-size: 80%;
+}
+#nav ul.list a:visited {
+	font: 80%;
+}
+p.breadcrumbs {
+	font-size: 90%;
+}
+#content h1.tutorial {
+	font-size: 160%;
+}
+.pullquote {
+	font-size: 120%;
+}

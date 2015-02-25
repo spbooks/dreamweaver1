@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Code Spark search results - powered by Atomz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="http://www.yourdomain.com/codespark/inc/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+  <div id="header-top">  <img src="http://www.yourdomain.com/codespark/img/logo.gif" alt="Code Spark" width="290" height="160" id="logo" />
+    <span class="tagline">Inspiration for Coders</span> 
+    <div id="controls"> 
+      <p>Page Controls</p>
+      <ul>
+        <li> <a href="#"><img src="http://www.yourdomain.com/codespark/img/control_larger.gif" alt="Increase Text Size" width="43" height="35" /></a></li>
+        <li><a href="#"><img src="http://www.yourdomain.com/codespark/img/control_smaller.gif" alt="Decrease Text Size" width="43" height="35" /></a></li>
+        <li><a href="#"><img src="http://www.yourdomain.com/codespark/img/control_low_graphics.gif" alt="Low Graphics" width="43" height="35" /></a></li>
+        <li><a href="#"><img src="http://www.yourdomain.com/codespark/img/control_default_style.gif" alt="Default Style" width="43" height="35" /></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="header-bottom">
+    <ul>
+	    <li><a href="http://www.yourdomain.com/codespark/">Tutorials</a></li>
+	    <li><a href="http://www.yourdomain.com/codespark/">About</a></li>
+	    <li><a href="http://www.yourdomain.com/codespark/">Contact</a></li>
+	    <li><a href="http://www.yourdomain.com/codespark/">Sitemap</a></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+
+<!-- Atomz Search results section.-->
+
+<!-- Show heading and Atomz logo graphic. -->
+<SEARCH-IF-RESULTS>
+<b>SEARCH RESULTS <SEARCH-LOWER> - <SEARCH-UPPER></b>
+of <SEARCH-TOTAL> total results for <b><SEARCH-QUERY></b><br />
+</SEARCH-IF-RESULTS>
+<SEARCH-IF-NOT-RESULTS>
+<b>SEARCH RESULTS</b> for <b><SEARCH-QUERY></b><br />
+</SEARCH-IF-NOT-RESULTS>
+<SEARCH-LOGO><br />
+
+<!-- Display Results. -->
+<SEARCH-RESULTS LENGTH=160>
+<p><b><SEARCH-LINK><SEARCH-TITLE LENGTH=160></SEARCH-LINK></b><br />
+<SEARCH-IF-SHOW-SUMMARIES>
+<SEARCH-IF-CONTEXT LENGTH=240><SEARCH-CONTEXT><br /></SEARCH-IF-CONTEXT>
+<font size="-1"><SEARCH-URL></font><br />
+</SEARCH-IF-SHOW-SUMMARIES>
+</SEARCH-RESULTS>
+
+<!-- If no results, show a message. -->
+<SEARCH-IF-NOT-RESULTS><p>
+Sorry, no matches were found containing <b><SEARCH-QUERY>.</b>
+</SEARCH-IF-NOT-RESULTS>
+<!-- Show By Score, By Date links, Show/Hide Summaries links. -->
+<SEARCH-IF-RESULTS><p>
+<SEARCH-IF-SORT-BY-DATE>
+<b><SEARCH-SORT-BY-SCORE COUNT=10>Sort By Score</SEARCH-SORT-BY-SCORE></b>
+</SEARCH-IF-SORT-BY-DATE>
+<SEARCH-IF-SORT-BY-SCORE>
+<b><SEARCH-SORT-BY-DATE COUNT=10>Sort By Date</SEARCH-SORT-BY-DATE></b>
+</SEARCH-IF-SORT-BY-SCORE>
+ | <b>
+<SEARCH-IF-SHOW-SUMMARIES>
+<SEARCH-HIDE-SUMMARIES COUNT=20>Hide Summaries</SEARCH-HIDE-SUMMARIES>
+</SEARCH-IF-SHOW-SUMMARIES>   
+<SEARCH-IF-HIDE-SUMMARIES>
+<SEARCH-SHOW-SUMMARIES COUNT=10>Show Summaries</SEARCH-SHOW-SUMMARIES>
+</SEARCH-IF-HIDE-SUMMARIES>   
+</b><br />
+</SEARCH-IF-RESULTS>
+
+<!-- Display Prev & Next links. -->
+<SEARCH-IF-RESULTS>
+<SEARCH-IF-PREV-COUNT>
+<b><SEARCH-PREV>Prev <SEARCH-PREV-COUNT></SEARCH-PREV></b>
+<SEARCH-IF-NEXT-COUNT> | </SEARCH-IF-NEXT-COUNT>
+</SEARCH-IF-PREV-COUNT> 
+<SEARCH-IF-NEXT-COUNT>
+<b><SEARCH-NEXT>Next <SEARCH-NEXT-COUNT></SEARCH-NEXT></b><br />
+</SEARCH-IF-NEXT-COUNT><p>
+</SEARCH-IF-RESULTS>
+
+</div>
+<div id="nav">
+  <div class="section">  
+    <h3>Search this Site</h3>
+    <form id="form1" method="get" action="http://search.atomz.com/search/">
+      <p><label>Search keywords
+      <input name="sp-q" type="text" class="searchtxt" id="sp-q" />
+      <input type="submit" name="Submit" value="Search" />
+      </label>
+        <input name="sp-a" type="hidden" id="sp-a" value="sp12345678" />
+        <input name="sp-p" type="hidden" id="sp-p" value="all" />
+        <input name="sp-f" type="hidden" id="sp-f" value="iso-8859-1" />
+      </p>
+    </form>
+  </div>
+  <div class="section">
+    <h3>Tutorial Topics</h3>
+    <ul class="topics">
+	  <li><a href="http://www.yourdomain.com/codespark/">PHP &amp; MySQL</a></li>
+	  <li><a href="http://www.yourdomain.com/codespark/">CSS Design</a></li>
+	  <li><a href="http://www.yourdomain.com/codespark/">JavaScript &amp; DHTML</a></li>
+	  <li><a href="http://www.yourdomain.com/codespark/">ASP &amp; .NET</a></li>
+	  <li><a href="http://www.yourdomain.com/codespark/">JSP &amp; Servlets</a></li>
+    </ul>
+  </div><img src="http://www.yourdomain.com/codespark/img/nav-bottom.gif" alt="" width="266" height="63" class="displayblock" />
+  </div>
+</body>
+</html>

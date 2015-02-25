@@ -1,0 +1,103 @@
+<!--#include file="inc/head.html" -->
+<title>Code Spark layout</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="inc/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--#include file="inc/top.html" -->
+  <h1>Latest ideas </h1>
+  <div class="homepage-box">
+    <h2><a href="#">ASP is from Mars - PHP is from Venus</a></h2>
+    <p class="authorcredit">Julian Carroll <span class="date">Jan 15, 2005</span></p>
+    <p><img src="img/julian.jpg" alt="Photo of Julian - PHP and MySQL" width="104" height="135" class="author-pic" /> </p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+      veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+  </div>
+  <div class="homepage-box">
+    <h2><a href="#">IIS Security - Tightening the .NET</a></h2>
+    <p class="authorcredit">Brigitte Walker <span class="date">Jan 11,2005</span></p>
+    <p><img src="img/brigitte.jpg" alt="Photo of Brigitte - ASP and .NET" width="104" height="135" class="author-pic" /> </p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+      veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+  </div>
+  
+  <div class="clear"></div>
+  <div class="homepage-box">
+    <h2><a href="#">CSS: Designing with Style, not Class</a></h2>
+    <p class="authorcredit">Georgina Laidlaw <span class="date">Jan 7, 2005</span></p>
+    <p><img src="img/georgina.jpg" alt="Photo of Georgina - CSS Design" width="104" height="135" class="author-pic" /> </p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+      veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+  </div>
+  <div class="homepage-box">
+    <h2><a href="#">Java - Servlets yourself right</a></h2>
+    <p class="authorcredit">Thomas Rutter <span class="date">Jan 3, 2005</span></p>
+    <p><img src="img/tom.jpg" alt="Photo of Tom - JSP and Servlets" width="104" height="135" class="author-pic" /> </p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+      veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+  </div>
+  <div class="clear"></div>
+  <div class="homepage-box">
+    <p class="rss"><img src="img/rss.gif" alt="RSS" width="37" height="15" /></p>
+    <h2>Recent Tutorials</h2>
+    <table width="100%"  border="0" summary="This table shows the most recent tutorials posted on the site and their publication date.">
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Published</th>
+      </tr>
+      <tr>
+        <td class="bullet"><a href="#">CSS forms - Massive feedback distortion?</a></td>
+        <td>26-12-2005</td>
+      </tr>
+      <tr class="even">
+        <td class="bullet"><a href="#">Buttons &amp; Dials - Java Controls Explained</a></td>
+        <td>23-12-2005</td>
+      </tr>
+      <tr>
+        <td class="bullet"><a href="#">Graphic Violence - Crazy Graphs with PHP</a></td>
+        <td>19-12-2005</td>
+      </tr>
+      <tr class="even">
+        <td class="bullet"><a href="#">Making the .NET Framework Work</a></td>
+        <td>16-12-2005</td>
+      </tr>
+      <tr>
+        <td class="bullet"><a href="#">CSS: Designing with Style, not Class</a></td>
+        <td>12-12-2005</td>
+      </tr>
+      <tr class="even">
+        <td class="bullet"><a href="#">JavaScript's Presentational Presence</a></td>
+        <td>9-12-2005</td>
+      </tr>
+    </table>
+  </div>
+  <div class="homepage-box">
+    <h2>Browser Stats - December - 04</h2>
+    <p><img src="img/browser_chart.gif" alt="Pie chart showing browser statistics for Dec 2004" width="180" height="180" class="browser-stats-image" /> </p>
+    <ul class="browser-stats-list">
+      <li class="ie6">IE6 Win (72%)</li>
+      <li class="moz">Firefox/Moz (19%)</li>
+      <li class="ie5">IE5+ Win (&lt;5%)</li>
+      <li class="safari">Safari (2%)</li>
+      <li class="opera">Opera (&lt;1%)</li>
+      <li class="other">Other (&lt;1%)</li>
+    </ul>
+    <div class="browser-stats-discussion">
+      <p>December saw Firefox's market share jump 1% across all major site categories
+        presumably on the back of it's 1.0 launch push. Increases of as much as 3%
+      were observed in some technically-oriented categories.</p>
+      <p>Overall, though IE6 continued the gradual decrease in market share it has
+        endured since it held 92% in November 2003, it still enjoys 4 times greater
+      usage than any other browser.</p>
+    </div>
+  </div>
+<!--#include file="inc/bottom.html" -->

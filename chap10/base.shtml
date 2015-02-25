@@ -1,0 +1,8 @@
+<!--#include file="inc/head.html" -->
+<title>Code Spark layout</title>
+</head>
+
+<body>
+<!--#include file="inc/top.html" -->
+<p>Content here</p>
+<!--#include file="inc/bottom.html" -->

@@ -1,0 +1,60 @@
+<!--#include file="inc/head.html" -->
+<title>Code Spark layout</title>
+</head>
+
+<body id="topic-css">
+<!--#include file="inc/top.html" -->
+  <p class="breadcrumbs"><a href="/">Home </a>&gt; <a href="tutorials.shtml">Tutorials</a> &gt; <a href="#">CSS
+    Design</a> &gt; CSS: Designing with Style, not Class </p>
+  <h1 class="tutorial">CSS: Designing with Style, not Class</h1>
+  <p><img src="img/georgina.jpg" alt="Georgina - CSS Design author" width="104" height="135" class="tutorial-author" /> <span class="tutorial-credit">Georgina
+    Ladlaw</span> Jan 7, 2005</p>
+  
+    <p class="tutorial-intro"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dolor.
+      Aenean mollis. Vivamus rhoncus ornare nunc. Nunc eget mi. Morbi tristique
+      feugiat mi. Vivamus nonummy imperdiet eros. Duis faucibus nunc sit amet
+      nunc. Donec nunc justo, imperdiet ac, varius ac, vehicula sed, lectus.
+      Ut nec quam vitae tellus auctor lobortis. Curabitur eu leo. Maecenas condimentum
+      wisi at arcu. Donec vitae ligula nec purus condimentum mattis. Praesent
+      lectus risus, accumsan vel, mattis nec, sodales quis, nulla. Proin dignissim
+      tempus mi. Nullam et ante. Mauris quis mi. Vivamus lacinia. Etiam nunc. </p>
+    <p>Sed faucibus. Proin nec eros. Cras interdum porta dui. Mauris nonummy
+      eleifend dui. Pellentesque dictum. Mauris non erat. Nulla ac dui et quam
+      euismod convallis. Mauris fringilla aliquam orci. Duis laoreet. Sed sit
+      amet leo. Vestibulum posuere tincidunt nisl. Aenean a est. Fusce hendrerit
+      wisi id pede. Donec lectus turpis, facilisis non, varius id, consectetuer
+      sit amet, est. Praesent interdum porta nulla. Curabitur vel purus in odio
+      porta posuere. Pellentesque lacus. </p>
+    <blockquote class="pullquote">
+      <p>Classes are great 'hooks' to hang CSS on, but don't overlook the hooks
+        you already have </p>
+  </blockquote>
+    <p>Nullam venenatis varius ipsum. Duis ut purus at urna feugiat aliquet.
+      In varius nisl non arcu. Nunc lobortis venenatis massa. Integer placerat.
+      Fusce eu diam vitae nisl imperdiet iaculis. Nullam ligula arcu, molestie
+      vitae, condimentum in, egestas at, neque. Nulla facilisi. Fusce vitae risus
+      ut velit scelerisque porttitor. Phasellus elit sapien, commodo ac, volutpat
+      in, tempor a, nulla. Ut rutrum sapien ac libero. In hac habitasse platea
+      dictumst. Etiam non ligula non purus laoreet adipiscing. Praesent mattis
+      enim eu libero. Suspendisse potenti. Integer sed felis. Mauris cursus nibh
+      at purus. Donec consequat, lorem quis consectetuer luctus, neque libero
+      suscipit ipsum, a consequat diam sapien at quam. </p>
+    <p><img src="img/css-tuorial-img.gif" alt="the box model" width="280" height="216" class="tutorial-image" />Donec arcu. Curabitur rhoncus. Proin nec turpis. Aliquam porttitor, eros
+      a fringilla vehicula, ipsum velit placerat ligula, convallis sollicitudin
+      mi dolor ut elit. Sed blandit lacinia augue. Proin ac libero. Nunc venenatis,
+      odio at pellentesque faucibus, enim enim bibendum massa, ac rhoncus wisi
+      elit in lorem. Nam tortor pede, ultricies ac, placerat in, posuere non,
+      mauris. Nullam nec magna at felis fringilla mattis. Sed dignissim. Nulla
+      convallis est nec velit. </p>
+    <p>Quisque aliquet nulla a velit. Duis quam leo, iaculis vel, congue sit
+      amet, convallis sed, libero. Praesent pharetra lorem non diam. Nullam nisl
+      orci, condimentum euismod, aliquet vitae, feugiat sed, turpis. Proin lacinia
+      sodales risus. Etiam ac arcu. Nam massa tortor, aliquam in, facilisis nec,
+      sagittis vel, magna. Maecenas mauris eros, fringilla nec, posuere in, dictum
+      at, augue. Nunc et risus eget lorem rutrum feugiat. Mauris gravida lorem
+      quis dolor. Nam viverra, enim consequat adipiscing porttitor, urna mi ultrices
+      est, sit amet pulvinar nisl elit suscipit turpis. Donec nisl quam, egestas
+      sed, sagittis in, rhoncus et, augue. </p>
+  
+  <p>&nbsp; </p>
+  <!--#include file="inc/bottom.html" -->
